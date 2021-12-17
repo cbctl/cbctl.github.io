@@ -128,7 +128,7 @@ The first thing I do when I clone a candidate's repo into the sandbox is run the
 Then I look at the coverage. Then I read the tests.
 
 You should always test your code anyway, but if the spec has explicitly stated they want to see tests
-then not doing writing tests is... inadvisable. Units, integration, everything. It clearly matters to the prospective
+then not writing tests is... inadvisable. Units, integration, everything. It clearly matters to the prospective
 company otherwise they would not have mentioned it.
 
 I especially love acceptance-level tests because, if they are thorough enough, then I don't
@@ -139,9 +139,9 @@ just how lazy engineers are. Do I want to manually build AND test stuff every da
 The person I want to work with is the person who saves me from that.
 
 Remember to go beyond "happy path" cases. Test that it behaves well in the edge cases; test
-that it fails in the way it should. When it comes to unit coverage 85% is an acceptable minimum, although
-those of you who practice [TDD](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
-will know not to stand for less than 100% in the majority of cases.
+that it fails in the way it should. When it comes to unit coverage... honestly any number is fairly meaningless (except for 0% which definitely means something, and it is not good)
+Those of you who practice [TDD](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+will end up with 100% in the majority of cases without even thinking about it.
 
 ![alt text](http://turnoff.us/image/en/depressed-developer-17.png)
 _[turnoff.us](http://turnoff.us/geek/the-depressed-developer-17/)_
