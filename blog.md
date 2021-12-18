@@ -13,6 +13,12 @@ menu: nav
   <li></li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <li>
+      <span class="post-meta">{{ "2021-12-17" | date: date_format }}</span>
+        <a class="post-link" href="/blog/custom-capi-provider">
+          {{ "Building and Shipping a custom Cluster API provider" | escape }}
+        </a>
+    </li>
+    <li>
       <span class="post-meta">{{ "2021-07-04" | date: date_format }}</span>
         <a class="post-link" href="/blog/hiking-cape-wrath-21">
           {{ "Hiking 100 miles alone on the Cape Wrath Trail" | escape }}
