@@ -371,12 +371,12 @@ could go right, but...)
 
 ## Try this at home!
 In the meantime if you want to try out rootless containers yourself you can do so. All Garden’s and all of Cloud Foundry’s code is on github, all open source.
-- [garden-runc-release](github.com/cloudfoundry/garden-runc-release)
-- [guardian](github.com/cloudfoundry/guardian)
-- [grootfs](github.com/cloudfoundry/grootfs)
+- [garden-runc-release](https://github.com/cloudfoundry/garden-runc-release)
+- [guardian](https://github.com/cloudfoundry/guardian)
+- [grootfs](https://github.com/cloudfoundry/grootfs)
 If you are deploying via CF, just set `garden.experimental_rootless_mode` in your manifest and that’s it: all applications you push will be rootless.
 
-We also have a standalone binary called `gdn` which is available [here](github.com/cloudfoundry/garden-runc-release/releases), and which you can run as an unprivileged
+We also have a standalone binary called `gdn` which is available [here](https://github.com/cloudfoundry/garden-runc-release/releases), and which you can run as an unprivileged
 user to get rootless containers, only on that patched Ubuntu of course.
 
 And finally, please check out the [living doc](https://rootlesscontaine.rs/) maintained by Aleksa Sarai on the progress of routless containers.
