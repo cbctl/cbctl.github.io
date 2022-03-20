@@ -13,6 +13,12 @@ menu: nav
   <li></li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <li>
+      <span class="post-meta">{{ "2022-03-20" | date: date_format }}</span>
+        <a class="post-link" href="/blog/salaries">
+          {{ "Salary transparency scares me" | escape }}
+        </a>
+    </li>
+    <li>
       <span class="post-meta">{{ "2021-12-18" | date: date_format }}</span>
         <a class="post-link" href="/blog/i-dont-know">
           {{ "Some things I don't know as of 2022" | escape }}
