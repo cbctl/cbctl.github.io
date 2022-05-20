@@ -405,6 +405,6 @@ whatever new thing I am trying.
 
 &nbsp;
 
-<sup>_Mistakes? Corrections? Suggestions?_ <a href="https://github.com/queenofdowntime/queenofdowntime.github.io/tree/master/tutorials/fizzbuzz-py.md"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
+<sup>_Mistakes? Corrections? Suggestions?_ <a href="https://github.com/cbctl/cbctl.github.io/tree/master/tutorials/fizzbuzz-py.md"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
 
-<sup>_Is something unclear? Do you need help?_ <a href="https://github.com/queenofdowntime/queenofdowntime.github.io/issues/new"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
+<sup>_Is something unclear? Do you need help?_ <a href="https://github.com/cbctl/cbctl.github.io/issues/new"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>

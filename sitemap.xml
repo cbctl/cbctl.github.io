@@ -8,138 +8,138 @@
 
 
 <url>
-  <loc>https://queenofdowntime.com/</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/about</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/about</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/talks</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/talks</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/recommended-reading</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/recommended-reading</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/baremetal-networking</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/baremetal-networking</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/salaries</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/salaries</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/i-dont-know</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/i-dont-know</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/custom-capi-provider</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/custom-capi-provider</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/hiking-cape-wrath-21</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/hiking-cape-wrath-21</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/hiking-in-cairngorms</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/hiking-in-cairngorms</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/how-to-tech-test</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/how-to-tech-test</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/remote-pair-programming</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/remote-pair-programming</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/inotify-release-deadlock-envoy</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/inotify-release-deadlock-envoy</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/hiking-in-norway</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/hiking-in-norway</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/the-route-to-rootless-containers</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/the-route-to-rootless-containers</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/a-day-in-the-life-of-a-cf-engineer</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/a-day-in-the-life-of-a-cf-engineer</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/container-rootfilesystems-in-prod</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/container-rootfilesystems-in-prod</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources/tutorials/git</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources/tutorials/git</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources/tutorials/fizzbuzz-py</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources/tutorials/fizzbuzz-py</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources/tutorials/fizzbuzz-rb</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources/tutorials/fizzbuzz-rb</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources/tutorials/fizzbuzz-js</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources/tutorials/fizzbuzz-js</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources/tutorials/fizzbuzz-go</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources/tutorials/fizzbuzz-go</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/resources/tutorials/crud-py</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/resources/tutorials/crud-py</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/assets/gists/switch-kernel</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/assets/gists/switch-kernel</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://queenofdowntime.com/blog/hiking-in-norway/maps</loc>
-  <lastmod>2022-05-18T13:08:38+00:00</lastmod>
+  <loc>https://cbctl.dev/blog/hiking-in-norway/maps</loc>
+  <lastmod>2022-05-20T09:41:33+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 

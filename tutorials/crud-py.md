@@ -36,7 +36,7 @@ Using [TDD](https://www.agilealliance.org/glossary/tdd), write **just the back-e
   - Update the contents of a text file.
   - Delete the file that is stored under a given path.
 
-_New to TDD? Start with the Intro Guide [here](https://queenofdowntime.com/resources/tutorials/fizzbuzz-py)._
+_New to TDD? Start with the Intro Guide [here](https://cbctl.dev/resources/tutorials/fizzbuzz-py)._
 
 Example of how our webservice should end up working using [`curl`](https://www.lifewire.com/example-uses-of-the-linux-curl-command-4084144):
 
@@ -835,6 +835,6 @@ There are many more things you can do to expand your CRUD api, all with TDD ofc!
 
 &nbsp;
 
-<sup>_Mistakes? Corrections? Suggestions?_ <a href="https://github.com/queenofdowntime/queenofdowntime.github.io/tree/master/tutorials/crud-py.md"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
+<sup>_Mistakes? Corrections? Suggestions?_ <a href="https://github.com/cbctl/cbctl.github.io/tree/master/tutorials/crud-py.md"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
 
-<sup>_Is something unclear? Do you need help?_ <a href="https://github.com/queenofdowntime/queenofdowntime.github.io/issues/new"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
+<sup>_Is something unclear? Do you need help?_ <a href="https://github.com/cbctl/cbctl.github.io/issues/new"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></sup>
