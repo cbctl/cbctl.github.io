@@ -2,7 +2,6 @@
 layout: page
 title: recommended reading
 permalink: /recommended-reading
-menu: nav
 ---
 
 I don't have twitter or facebook or any other sort of social media.

@@ -2,6 +2,7 @@
 layout: page
 title: need help?
 permalink: /resources
+menu: nav
 ---
 
 I try to dedicate a few hours a week to mentoring and teaching minorities in tech.
