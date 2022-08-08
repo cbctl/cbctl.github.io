@@ -87,7 +87,7 @@ Beyond the core problem, are there any little things they would like you to take
 Do they just want you to write code, or are there some open ended questions you will need to set aside some time for?
 Can you separate the things which matter to them from the filler?
 
-It is stunning how many tests I have recevied where the candidate didn't at least acknowledge
+It is stunning how many tests I have received where the candidate didn't at least acknowledge
 all parts of the assignment. I am more than happy to accept a "sorry I ran out of time to do part X" (it is _very_
 hard to scope a test), but when I get a partially finished test with no explanation,
 I have no way of telling if they struggled for time or simply didn't care enough to read the spec properly.
@@ -146,7 +146,7 @@ will end up with 100% in the majority of cases without even thinking about it.
 ![alt text](http://turnoff.us/image/en/depressed-developer-17.png)
 _[turnoff.us](http://turnoff.us/geek/the-depressed-developer-17/)_
 
-If you know how to, run all your test in a clean environment (ie. in a Container).
+If you know how to, run all your tests in a clean environment (ie. in a Container).
 Provide your reviewers with a handy script so that they can also run your tests in a container
 with the image and settings you have been using.
 
