@@ -128,7 +128,7 @@ While the client tool ran, he saw the number of server `goroutine`s (and `allocs
 increase until the server stopped processing requests and the client started
 receiving the `"failed to receive server preface"` error.
 
-![alt-text](/assets/images/pprof-before.png, "pprof with connections left open")
+![alt-text](/assets/images/pprof-before.png "pprof with connections left open")
 
 When he rebuilt the client to close the connections, the goroutines stayed stable,
 and the server continued to serve requests without issue.
