@@ -1,6 +1,8 @@
 ---
 layout: post
+permalink: /blog/overlay
 title: "Why is OverlayFS slow now?"
+date: "March 29, 2019"
 ---
 
 ## **TL;DR:**
@@ -14,6 +16,8 @@ Fortunately, because of luck or magic, we may have already solved* the problem l
 
 _\*got around_
 
+_This blog is also published on [cloudfoundry.org](https://www.cloudfoundry.org/blog/an-overlayfs-journey-with-the-garden-team/)._
+
 &nbsp;
 
 ----------------------------------
@@ -24,7 +28,7 @@ _\*got around_
 
 So, one day towards the end of September, we looked up at our team CI/Performance monitor and saw this:
 
-![alt text](/assets/images/cfscalegraph "one of our monitoring graphs")
+![alt text](/assets/images/cfscalegraph "cf container scale")
 
 I bet that, despite having been given limited context and perhaps not even knowing what my team does,
 you looked at that graph and thought "oh damn". The reason you thought this (maybe not exactly this) is because everyone knows that

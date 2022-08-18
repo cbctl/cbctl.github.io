@@ -92,7 +92,7 @@ menu: nav
     </li>
     <li>
       <span class="post-meta">{{ "2019-03-29" | date: date_format }}</span>
-        <a class="post-link" href="https://www.cloudfoundry.org/blog/an-overlayfs-journey-with-the-garden-team/">
+        <a class="post-link" href="/blog/overlay">
           {{ "Why is OverlayFS slow now?" | escape }}
         </a>
     </li>
