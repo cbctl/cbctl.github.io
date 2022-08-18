@@ -13,6 +13,12 @@ menu: nav
   <li></li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <li>
+      <span class="post-meta">{{ "2022-08-18" | date: date_format }}</span>
+        <a class="post-link" href="/blog/close-grpc-connections">
+          {{ "Always close gRPC client connections" | escape }}
+        </a>
+    </li>
+    <li>
       <span class="post-meta">{{ "2022-08-08" | date: date_format }}</span>
         <a class="post-link" href="/blog/how-to-review-candidates">
           {{ "How to review software engineering candidates' tech tests" | escape }}

@@ -298,7 +298,7 @@ or why I didn't use something, send me an email.
 
 Here is quite possibly the worst and most confusing diagram ever, yw:
 
-![alt text](/assets/images/bad-network-pic "terrible")
+![alt text](/assets/images/bad-network-pic "basic baremetal networking")
 
 [flintlock]: https://github.com/weaveworks-liquidmetal/flintlock
 [equinix]: https://metal.equinix.com/
