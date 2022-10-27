@@ -5,8 +5,7 @@ title: "Always close gRPC client connections"
 date: "August 18, 2022"
 ---
 
-TLDR: close your goddamn client connections or face the wrath of too many server
-goroutines!
+TLDR: close your goddamn client connections or face the wrath of system open file limits!
 
 &nbsp;
 
@@ -36,11 +35,11 @@ copy-pasta -ing the whole thing, which in this case is not so terrible.
 
 But those of us who have always "just" thrown in the `defer` as the "right thing"
 to do may not know fully why it is the right thing. What exactly happens when
-clients don't close their connections to the server?
+clients, long-running clients in particular, don't close their connections to the server?
 
 Normally I find out what a thing does be removing it and observing the chaos.
 In this case, the thing was already removed, and it presented in a interesting bug
-which took us a moment to trace back to the un-disconnected client.
+which took us a moment to trace back to the un-disconnected clients.
 
 &nbsp;
 
@@ -59,7 +58,9 @@ Client requests from my [CAPMVM][capmvm] controller and from my little CLI tool,
 rpc error: code = Unavailable desc = failed to receive server preface within timeout
 ```
 
-which told me nothing, and Google didn't give me anything either.
+which told me nothing, and Google didn't give me anything either. The most you
+can glean from that error is that the service is still up, but is so jammed that
+it cannot respond with the most basic `ack` to any client.
 
 At the time, I had other things to do, so I noted the [issue][issue] and restarted my
 flintlock server, which made things work again for a time.
@@ -85,10 +86,10 @@ tcp6       0      0 host-0:9090             host86-183-165-13:41894 ESTABLISHED
 
 and so on for 1012 lines.
 
-Basically there were over a thousand open connections to my flintlock server,
-which can't have been doing it much good. I guessed that restarting the service
-had made the problem go away because all of those connections would have been
-closed.
+Basically there were over a thousand open connections to my `flintlockd` server,
+which had hit the open file limit set by the system I was running on.
+I guessed that restarting the service had made the problem go away because all
+of those connections would have been closed.
 
 All the connections went to the same IP which was likely my CAPMVM controller,
 which would have been opening (and not closing) several connections per reconciliation
@@ -119,7 +120,7 @@ connections were the culprit.
 
 _Meanwhile..._
 
-Richard had come to the same conclusion at about the same time. For his part,
+Richard had come to the same conclusion via a different symptom at about the same time. For his part,
 he had written a small client which would loop, open a connection to flintlock,
 NOT close it, and call an endpoint until it couldn't anymore. On the other side
 he had started a custom flintlock server in which he had enabled [`pprof`][pprof].
@@ -135,6 +136,22 @@ and the server continued to serve requests without issue.
 
 ![alt-text](/assets/images/pprof-after.png "pprof with connections closed")
 
+Note that here the maxing out of allowed open connections and the number of goroutines
+are likely to be unconnected. Either flintlock had so many routines open that it
+couldn't process more, or the system had said "no more open files" which meant flintlock's
+hands were tied.
+
+Either way, leaking that many routines or opening that many connections is just careless.
+
+It is also interesting to note that this bug only appeared because of the way we
+were communicating with the service:
+- It was a long-running sub-routine
+- Which did not exit
+- And which opened a new connection (or three) per reconciliation loop
+
+If the client had re-used the same connection throughout, or if it exited after calls
+thus disconnecting, we would not have seen the issue.
+
 &nbsp;
 
 ---------------------------------------------
@@ -142,10 +159,13 @@ and the server continued to serve requests without issue.
 &nbsp;
 
 Most often the "right thing" has a good reason for being "right", and it was nice
-to get to see the proof of this one.
+to get to see the reasoning and repercussions of this one.
 
 Basically: whatever you are opening (files, connections, the fridge), close it.
 With a `defer` if you have one.
+
+For a full repro of this bug, as well as an illustration of how to set up `pprof`
+on your service, I have set up a dummy service and client [here][soda].
 
 [lm]: https://github.com/weaveworks-liquidmetal
 [flint]: https://github.com/weaveworks-liquidmetal/flintlock
@@ -154,3 +174,4 @@ With a `defer` if you have one.
 [issue]: https://github.com/weaveworks-liquidmetal/flintlock/issues/503
 [rc]: https://github.com/richardcase
 [pprof]: https://github.com/google/pprof
+[soda]: https://github.com/warehouse-13/soda
