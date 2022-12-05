@@ -9,6 +9,13 @@ menu: nav
   <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <li>
+      <span class="post-meta">{{ "2022-11-23" | date: date_format }}</span>
+        <a class="post-link" href="https://www.youtube.com/watch?v=8GjFLRpyilw&list=PLX3geWFOgXozvW1avyeZfgPJXrWrzHgYV&index=29&ab_channel=KubernetesCommunityDaysUK">
+          {{ "'Phenomenal cosmic powers, itty bitty living space': How MicroVMs can take your Homelab to the next level" | escape }}
+        </a>
+      <span class="post-meta"><a href="https://www.cloudfoundry.org/event/eusummit2018/">{{ "Cloud Foundry Summit Europe 2018" | escape }}</a></span>
+    </li>
+    <li>
       <span class="post-meta">{{ "2018-10-10" | date: date_format }}</span>
         <a class="post-link" href="https://www.youtube.com/watch?v=iFo1KrxdOts&t=1s">
           {{ "The Route to Rootless Containers" | escape }}
