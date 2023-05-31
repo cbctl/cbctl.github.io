@@ -8,6 +8,13 @@ menu: nav
 <div class="home">
   <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+     <li>
+      <span class="post-meta">{{ "2023-04-19" | date: date_format }}</span>
+        <a class="post-link" href="https://www.youtube.com/watch?v=2g_TXw5bkLY&list=PLj6h78yzYM2PyrvCoOii4rAopBswfz1p7&index=101">
+          {{ "A CI/CD Platform in the Palm of Your Hand" | escape }}
+        </a>
+      <span class="post-meta"><a href="https://kccnceu2023.sched.com/event/1HyVW/a-cicd-platform-in-the-palm-of-your-hand-claudia-beresford-weaveworks">{{ "Kubecon Europe 2023" | escape }}</a></span>
+    </li>
     <li>
       <span class="post-meta">{{ "2022-11-23" | date: date_format }}</span>
         <a class="post-link" href="https://www.youtube.com/watch?v=8GjFLRpyilw&list=PLX3geWFOgXozvW1avyeZfgPJXrWrzHgYV&index=29&ab_channel=KubernetesCommunityDaysUK">

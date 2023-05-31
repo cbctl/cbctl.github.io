@@ -16,7 +16,7 @@
 title: claudia beresford
 email: claudia [at] cbctl [dot] dev
 description: >- # this means to ignore newlines until "baseurl:"
-  copyright © claudia beresford 2022
+  copyright © claudia beresford 2023
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: callisto13
