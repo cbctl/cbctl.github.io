@@ -55,18 +55,6 @@ menu: nav
         </a>
     </li>
     <li>
-      <span class="post-meta">{{ "2021-07-04" | date: date_format }}</span>
-        <a class="post-link" href="/blog/hiking-cape-wrath-21">
-          {{ "Hiking 100 miles alone on the Cape Wrath Trail" | escape }}
-        </a>
-    </li>
-    <li>
-      <span class="post-meta">{{ "2020-11-05" | date: date_format }}</span>
-        <a class="post-link" href="/blog/hiking-in-cairngorms">
-          {{ "8 Days Hiking Alone in the Cairngorms, Scotland" | escape }}
-        </a>
-    </li>
-    <li>
       <span class="post-meta">{{ "2020-10-31" | date: date_format }}</span>
         <a class="post-link" href="/blog/how-to-tech-test">
           {{ "How to get the most out of your next tech test" | escape }}
@@ -82,12 +70,6 @@ menu: nav
       <span class="post-meta">{{ "2019-10-14" | date: date_format }}</span>
         <a class="post-link" href="/blog/inotify-release-deadlock-envoy">
           {{ "Envoy Proxy Deadlocked My Cloud" | escape }}
-        </a>
-    </li>
-    <li>
-      <span class="post-meta">{{ "2019-09-11" | date: date_format }}</span>
-        <a class="post-link" href="/blog/hiking-in-norway">
-          {{ "7 Days Hiking Alone from Voss to Dale, Norway" | escape }}
         </a>
     </li>
     <li>
